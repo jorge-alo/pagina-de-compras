@@ -1,0 +1,59 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    
+}
+.container__btn-comprar {
+    text-align: center;
+    margin: 20px;
+}
+.btn-comprar-tabla {
+    width: 80%;
+    background-color: #35a;
+    border: none;
+    color: #fff;
+    padding: 2px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+.btn-comprar-tabla:hover{
+    background-color: #33a;
+}
+.btn-tabla {
+    padding: 3px 6px;
+    background-color: #35a;
+    border: none;
+    margin: 2px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: clamp(.8rem, 2vw, 1.5rem);
+}
+.btn-tabla:hover {
+    background-color: #33a;
+}
+.btn-tabla-eliminar {
+    background-color: #f21;
+    font-size: clamp(.7rem,2vw, 1rem);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-tabla-eliminar:hover {
+    background-color: #f01;
+}
+.titulo-tabla {
+    font-size: clamp(.9rem, 2vw, 1.5rem);
+    margin-right: 5px;
+}
+.precio-tabla {
+    font-size: clamp(.9rem, 2vw, 1.5rem);
+}
+.imagen-tabla {
+    width: 60px;
+}

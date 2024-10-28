@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0px 5px 20px #666;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+
+.nav__compras {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.carrito-container {
+   
+    position: relative;
+}
+.item-producto {
+    background-color: #452299;
+   width: 15px;
+   height: 15px;
+   text-align: center;
+   border-radius: 50px;
+   color: #fff;
+   font-size: 10px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.form-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.input-nav {
+   width: clamp(100px, 20vw, 300px);
+   outline: none;
+   padding: 3px ;
+   border-radius: 4px;
+   font-size: 1rem;
+   border: 2px solid #649;
+}
+
+.boton-form {
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: #652299;
+    border: none;
+    color: #fff;
+}
+.boton-form:hover{
+    background-color: #61c;
+    cursor: pointer;
+}
